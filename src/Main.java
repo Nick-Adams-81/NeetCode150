@@ -1,6 +1,7 @@
 import Arrays.ContinsDuplicate;
 import Arrays.TwoSum;
 import Arrays.ValidAnagram;
+import TwoPointers.ValidPalindrome;
 
 import java.util.Arrays;
 
@@ -16,5 +17,9 @@ public class Main {
 
         ValidAnagram anagram = new ValidAnagram();
         System.out.println(anagram.isAnagram1("cat", "taco"));
+
+        String str = "a man, a plan, a Canal, Panama!!! 123";
+        ValidPalindrome palindorme = new ValidPalindrome();
+        System.out.println(palindorme.removeChars(str));
     }
 }
