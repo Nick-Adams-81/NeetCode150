@@ -1,6 +1,7 @@
 import Arrays.ContinsDuplicate;
 import Arrays.TwoSum;
 import Arrays.ValidAnagram;
+import TwoPointers.TwoSum2;
 import TwoPointers.ValidPalindrome;
 
 import java.util.Arrays;
@@ -21,5 +22,9 @@ public class Main {
         String str = "a man, a plan, a Canal, Panama!!! 123";
         ValidPalindrome palindorme = new ValidPalindrome();
         System.out.println(palindorme.removeChars(str));
+
+        TwoSum2 twoSum2 = new TwoSum2();
+        int[] numbers = {2, 7, 11, 15};
+        System.out.println(Arrays.toString(twoSum2.twoSum2(numbers, 9)));
     }
 }
