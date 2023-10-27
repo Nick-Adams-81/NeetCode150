@@ -2,9 +2,11 @@ import Arrays.ContinsDuplicate;
 import Arrays.TwoSum;
 import Arrays.ValidAnagram;
 import SlidingWindow.BuyAndSellStock;
+import TwoPointers.ContainerWithMostWater;
 import TwoPointers.TwoSum2;
 import TwoPointers.ValidPalindrome;
 
+import java.awt.*;
 import java.util.Arrays;
 
 public class Main {
@@ -31,5 +33,10 @@ public class Main {
         BuyAndSellStock maxProfit = new BuyAndSellStock();
         int[] prices = {7, 1, 5, 3, 6, 4};
         System.out.println(maxProfit.maxProfit(prices));
+
+        ContainerWithMostWater water = new ContainerWithMostWater();
+
+        int[] aqua = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+        System.out.println(water.maxArea(aqua));
     }
 }
