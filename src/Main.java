@@ -3,6 +3,7 @@ import Arrays.TwoSum;
 import Arrays.ValidAnagram;
 import SlidingWindow.BuyAndSellStock;
 import TwoPointers.ContainerWithMostWater;
+import TwoPointers.TrappingRainWater;
 import TwoPointers.TwoSum2;
 import TwoPointers.ValidPalindrome;
 
@@ -38,5 +39,9 @@ public class Main {
 
         int[] aqua = {1, 8, 6, 2, 5, 4, 8, 3, 7};
         System.out.println(water.maxArea(aqua));
+
+        TrappingRainWater rainWater = new TrappingRainWater();
+        int[] moreAqua = {4, 2, 0, 3, 2, 5};
+        System.out.println(rainWater.trap(moreAqua));
     }
 }
