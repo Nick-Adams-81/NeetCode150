@@ -42,6 +42,6 @@ public class Main {
 
         TrappingRainWater rainWater = new TrappingRainWater();
         int[] moreAqua = {4, 2, 0, 3, 2, 5};
-        //System.out.println(rainWater.trap(moreAqua));
+        System.out.println(rainWater.trap(moreAqua));
     }
 }
