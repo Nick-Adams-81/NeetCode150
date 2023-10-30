@@ -7,6 +7,7 @@ import TwoPointers.TwoSum2;
 import TwoPointers.ValidPalindrome;
 import Arrays.ContainsDuplicate;
 import Arrays.GroupAnagrams;
+import Arrays.TopKFrequentElements;
 
 import java.util.Arrays;
 
@@ -23,6 +24,10 @@ public class Main {
         GroupAnagrams anagrams = new GroupAnagrams();
         String[] strings = {"eat", "tea", "tan", "ate", "nat", "bat"};
         System.out.println(anagrams.groupAnagrams(strings));
+
+        TopKFrequentElements frequentElements = new TopKFrequentElements();
+        int[] kNums = {1, 1, 1, 2, 2, 3};
+        System.out.println(Arrays.toString(frequentElements.topKElements(kNums, 2)));
 
 
         ValidAnagram anagram = new ValidAnagram();
