@@ -6,6 +6,7 @@ import TwoPointers.TrappingRainWater;
 import TwoPointers.TwoSum2;
 import TwoPointers.ValidPalindrome;
 import Arrays.ContainsDuplicate;
+import Arrays.GroupAnagrams;
 
 import java.util.Arrays;
 
@@ -17,7 +18,12 @@ public class Main {
 
         TwoSum twoSum = new TwoSum();
         int[] moreNums = {2, 7, 11, 15};
-        System.out.println(Arrays.toString(twoSum.twoSum(moreNums, 17)));
+        System.out.println(Arrays.toString(twoSum.twoSum(moreNums, 1)));
+
+        GroupAnagrams anagrams = new GroupAnagrams();
+        String[] strings = {"eat", "tea", "tan", "ate", "nat", "bat"};
+        System.out.println(anagrams.groupAnagrams(strings));
+
 
         ValidAnagram anagram = new ValidAnagram();
         System.out.println(anagram.isAnagram1("cat", "taco"));
