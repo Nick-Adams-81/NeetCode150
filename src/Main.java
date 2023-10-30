@@ -1,4 +1,3 @@
-import Arrays.ContinsDuplicate;
 import Arrays.TwoSum;
 import Arrays.ValidAnagram;
 import SlidingWindow.BuyAndSellStock;
@@ -6,13 +5,13 @@ import TwoPointers.ContainerWithMostWater;
 import TwoPointers.TrappingRainWater;
 import TwoPointers.TwoSum2;
 import TwoPointers.ValidPalindrome;
+import Arrays.ContainsDuplicate;
 
-import java.awt.*;
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        ContinsDuplicate duplicate = new ContinsDuplicate();
+        ContainsDuplicate duplicate = new ContainsDuplicate();
         int[] myNums = {1, 2, 3};
         System.out.println(duplicate.containsDuplicate(myNums));
 
