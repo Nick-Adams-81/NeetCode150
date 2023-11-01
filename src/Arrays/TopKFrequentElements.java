@@ -2,6 +2,7 @@ package Arrays;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 import java.util.PriorityQueue;
 
 public class TopKFrequentElements {
@@ -14,7 +15,7 @@ public class TopKFrequentElements {
         pk.addAll(map.entrySet());
         int[] output = new int[k];
             for(int i = 0; i < k; i++) {
-                output[i] = pk.poll().getKey();
+                output[i] = Objects.requireNonNull(pk.poll()).getKey();
             }
         return output;
     }
