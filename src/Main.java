@@ -9,6 +9,7 @@ import Arrays.ContainsDuplicate;
 import Arrays.GroupAnagrams;
 import Arrays.TopKFrequentElements;
 import Arrays.ValidSudoku;
+import Arrays.LomgestConsecutiveSequence;
 
 import java.util.Arrays;
 
@@ -69,5 +70,9 @@ public class Main {
         };
         ValidSudoku sudoku = new ValidSudoku();
         System.out.println(sudoku.isValidSudoku(board));
+
+        LomgestConsecutiveSequence sequence = new LomgestConsecutiveSequence();
+        int[] longestSequence = {100, 4, 200, 1, 3, 2};
+        System.out.println(sequence.longestBruteForce(longestSequence));
     }
 }
