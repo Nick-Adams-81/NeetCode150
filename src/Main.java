@@ -20,7 +20,8 @@ public class Main {
 
         TwoSum twoSum = new TwoSum();
         int[] moreNums = {2, 7, 11, 15};
-        System.out.println(Arrays.toString(twoSum.twoSum(moreNums, 1)));
+        System.out.println(Arrays.toString(twoSum.twoSum(moreNums, 9)));
+        System.out.println(Arrays.toString(twoSum.twoSumNSquared(moreNums, 18)));
 
         GroupAnagrams anagrams = new GroupAnagrams();
         String[] strings = {"eat", "tea", "tan", "ate", "nat", "bat"};
