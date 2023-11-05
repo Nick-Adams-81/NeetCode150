@@ -74,5 +74,6 @@ public class Main {
         LomgestConsecutiveSequence sequence = new LomgestConsecutiveSequence();
         int[] longestSequence = {100, 4, 200, 1, 3, 2};
         System.out.println(sequence.longestBruteForce(longestSequence));
+        System.out.println(sequence.longest(longestSequence));
     }
 }
