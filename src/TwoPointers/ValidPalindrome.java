@@ -19,4 +19,25 @@ public class ValidPalindrome {
 
     }
 
+    public boolean isPalindromeOptimized(String s) {
+        if(s.isEmpty()) return true;
+        int left = 0;
+        int right = s.length() -1;
+        while(left <= right) {
+            char currentFirst = s.charAt(left);
+            char currentLast = s.charAt(right);
+            if(!Character.isLetterOrDigit(currentFirst)) {
+                left++;
+            } else if(!Character.isLetterOrDigit(currentLast)) {
+                right--;
+            } else {
+                if(Character.toLowerCase(currentFirst) != Character.toLowerCase(currentLast)) return false;
+                left++;
+                right--;
+            }
+
+        }
+        return true;
+    }
+
 }

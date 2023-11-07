@@ -36,9 +36,10 @@ public class Main {
         ValidAnagram anagram = new ValidAnagram();
         System.out.println(anagram.isAnagram1("cat", "taco"));
 
-        String str = "a man, a plan, a Canal, Panama!!! 123";
+        String str = "a man, a plan, a Canal, Panama!!!";
         ValidPalindrome palindorme = new ValidPalindrome();
         System.out.println(palindorme.removeChars(str));
+        System.out.println(palindorme.isPalindromeOptimized(str));
 
         TwoSum2 twoSum2 = new TwoSum2();
         int[] numbers = {2, 7, 11, 15};
