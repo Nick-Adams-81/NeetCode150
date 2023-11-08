@@ -48,7 +48,8 @@ public class Main {
 
         BuyAndSellStock maxProfit = new BuyAndSellStock();
         int[] prices = {7, 1, 5, 3, 6, 4};
-        System.out.println(maxProfit.maxProfit(prices));
+        System.out.println("Max Profit 1: " + maxProfit.maxProfit(prices));
+        System.out.println("Max Profit 2: " + maxProfit.maxProfit2(prices));
 
         ContainerWithMostWater water = new ContainerWithMostWater();
 

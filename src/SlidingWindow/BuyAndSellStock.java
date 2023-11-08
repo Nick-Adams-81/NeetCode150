@@ -14,4 +14,13 @@ public class BuyAndSellStock {
         }
         return maxProfit;
     }
+
+    public int maxProfit2(int[] prices) {
+        int minValue = prices[0], maxProfit = 0;
+        for(int i = 1; i < prices.length; i++) {
+            minValue = Math.min(minValue, prices[i]);
+            maxProfit = Math.max(maxProfit, prices[i] - minValue);
+        }
+        return maxProfit;
+    }
 }
