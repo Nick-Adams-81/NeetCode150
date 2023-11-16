@@ -1,6 +1,7 @@
 import Arrays.TwoSum;
 import Arrays.ValidAnagram;
 import SlidingWindow.BuyAndSellStock;
+import SlidingWindow.LongestRepeatingCharacterReplacement;
 import SlidingWindow.LongestSubstringWithoutRepeatingChars;
 import TwoPointers.ContainerWithMostWater;
 import TwoPointers.TrappingRainWater;
@@ -82,5 +83,9 @@ public class Main {
         LongestSubstringWithoutRepeatingChars repeaters = new LongestSubstringWithoutRepeatingChars();
         String myString = "abcabcbb";
         System.out.println(repeaters.lengthOfLongestSubstring(myString));
+
+        LongestRepeatingCharacterReplacement replace = new LongestRepeatingCharacterReplacement();
+        String myStr = "ABAB";
+        System.out.println(replace.characterReplacement(myStr, 2));
     }
 }
