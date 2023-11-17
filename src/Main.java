@@ -3,6 +3,7 @@ import Arrays.ValidAnagram;
 import SlidingWindow.BuyAndSellStock;
 import SlidingWindow.LongestRepeatingCharacterReplacement;
 import SlidingWindow.LongestSubstringWithoutRepeatingChars;
+import SlidingWindow.PermutationInString;
 import TwoPointers.ContainerWithMostWater;
 import TwoPointers.TrappingRainWater;
 import TwoPointers.TwoSum2;
@@ -87,5 +88,10 @@ public class Main {
         LongestRepeatingCharacterReplacement replace = new LongestRepeatingCharacterReplacement();
         String myStr = "ABAB";
         System.out.println(replace.characterReplacement(myStr, 2));
+
+        PermutationInString permutation = new PermutationInString();
+        String s1 = "ab";
+        String s2 = "eidbaooo";
+        System.out.println(permutation.checkInclusion(s1, s2));
     }
 }
