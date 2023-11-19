@@ -60,7 +60,9 @@ public class Main {
 
         TrappingRainWater rainWater = new TrappingRainWater();
         int[] moreAqua = {4, 2, 0, 3, 2, 5};
+        int[] myWater = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
         System.out.println(rainWater.trap(moreAqua));
+        System.out.println("trapping rain water 2: " + rainWater.trap2(myWater));
 
         char[][] board = {
                 {'5', '3', '.', '.', '7', '.', '.', '.', '.'},
