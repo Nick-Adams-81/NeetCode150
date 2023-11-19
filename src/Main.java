@@ -13,6 +13,7 @@ import Arrays.GroupAnagrams;
 import Arrays.TopKFrequentElements;
 import Arrays.ValidSudoku;
 import Arrays.LomgestConsecutiveSequence;
+import Stack.ValidParentheses;
 
 import java.util.Arrays;
 
@@ -95,5 +96,11 @@ public class Main {
         String s1 = "ab";
         String s2 = "eidbaooo";
         System.out.println(permutation.checkInclusion(s1, s2));
+
+        ValidParentheses validParens = new ValidParentheses();
+        String parens = "[]{}()";
+        System.out.println(validParens.validParens(parens));
+
+
     }
 }
